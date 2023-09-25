@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{font-family: 'Roboto', sans-serif;}
+
+
+
+h1,h2,h3,h4,h5,h6{font-family: 'Roboto', sans-serif;}
+
+.about{
+    display: flex;
+    background-color: rgb(93, 148, 171);
+}
+.about-img,img{
+    width: 800px;
+    height: 700px;
+    object-fit: cover;
+    
+}
+.about-right{
+    margin-left: 50px;
+    padding: 100px 0 100px 0 ;
+}
+.about-content{
+    font-size: 22px;
+    padding-bottom: 20px;
+    width: 600px;
+}
+.about-content h1{
+    font-size: 50px;
+}
+.about-content p{
+    margin-bottom: 20px;
+    line-height: 1.5;
+    margin: 20px;
+    color: #ffffff;
+    padding: ;
+    
+}
+.counter-box{
+    display: flex;
+    
+    
+}
+.about-icon{
+    width: 50px;
+    height: 50px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-icon2{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-icon i{
+    font-size: 30px;
+   
+}
+.about-icon2{
+    font-size: 30px;
+    margin-left: 70px;
+}
+.counter-box .icon-txt h2{
+    font-size: 30px;
+    margin-left: 15px;
+    
+}
+.icon-txt h2{
+    display: inline-block;
+    font-size: 30px;
+
+}
+h2{
+    color: #000000;
+    padding: 0px 0px 7px 15px;
+}
+.counter-box .icon-txt,p{
+    margin-left: 15px;
+    color: #ebebeb;
+}
+.btn{
+background-color: #0f4256;
+padding: 16px 48px;
+display: inline-block;
+margin-top: 50px;
+}
+.btn,a{
+    color: #fff;
+    font-size: 18px;
+}
